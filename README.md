@@ -1,2 +1,3 @@
-# ArraysAndStrings
-These are coding examples for Arrays and Strings from Cracking the Coding Interview
+# Chapter 1 Technical Interview Questions
+Implement an algorithm to determine if a string has all unique characters
+
