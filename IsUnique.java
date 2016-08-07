@@ -24,11 +24,6 @@ public class IsUnique {
     
     public static boolean checkingUnique(){
         for(int i = 0; i < helloString.length(); i++){
-            //if the hashtable "hashUnique" contains the character value 
-            //at the specified index of helloString, then the character of 
-            //the string is in the hashtable already meaning the string does 
-            //not contain unique characters
-            //.charAt(i): Returns the char value at the specified index.
             if(hashUnique.contains(helloString.charAt(i))){
                 System.out.println(helloString + " does not contain unique charatcers. ");
                 return false;
@@ -45,7 +40,7 @@ public class IsUnique {
         Scanner cin = new Scanner(System.in); //takes in user input
         helloString = cin.next(); //set string equal to the next string
         cin.close();
-       checkingUnique();
+        checkingUnique(); //calling method
     }
     
 }
