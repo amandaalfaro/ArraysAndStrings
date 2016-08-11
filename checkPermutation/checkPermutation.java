@@ -37,11 +37,11 @@ public class checkPermutation {
                 }
             }   
             if(!matchFound){
-                System.out.println("false");
+                System.out.println(firstString + " and " + secondString + " are not permutations of each other.");
                 return false;
             }
         }
-    System.out.println("true");
+    System.out.println(firstString + " and " + secondString + " are permutations of each other.");
     return true;
     }
     
